@@ -1,0 +1,9 @@
+namespace Test.db;
+
+context "test-cds" {
+Entity mytable{
+	key emp_id : String(8);
+	emp_name : String(40);
+	age : String(10);
+}
+};
